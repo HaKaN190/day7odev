@@ -3,6 +3,7 @@ function kaydet(){
     var soyisim = document.getElementById("soyisim").value;
     localStorage.setItem('isim', isim);
     localStorage.setItem('soyisim', soyisim);
+    window.location.assign("sayfa2.html")
     
   }
   function notHesapla() {
